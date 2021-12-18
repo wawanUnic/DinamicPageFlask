@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Сервер Flask</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h3>Пример работы сервера Flask с динамическими ссылками и динамическими страницами</h3>
+    <h4>Адрес текущей страницы: - <a href="/items/{{ next_ref }}">http://lisenok/items/{{ next_ref }}</a>.</h4>
+    Диманическая ссылка1: - <a href="/items/{{ next_ref1 }}">http://lisenok/items/{{ next_ref1 }}</a>,
+    <br>
+    Диманическая ссылка2: - <a href="/items/{{ next_ref2 }}">http://lisenok/items/{{ next_ref2 }}</a>,
+    <br>
+    Диманическая ссылка3: - <a href="/items/{{ next_ref3 }}">http://lisenok/items/{{ next_ref3 }}</a>.
+    <br>
+    <br>
+    <br>
+    <br>
+    <video width="640" autoplay="True" loop="True">
+      <source src="../static/video/1.mp4" type="video/mp4">
+      Увы. Ваш браузер не поддерживает воспроизведение видео.
+    </video>
+
+  </body>
+</html>

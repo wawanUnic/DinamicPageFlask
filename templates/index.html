@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Сервер Flask</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h3>Пример работы сервера Flask с динамическими ссылками и динамическими страницами</h3>
+    <br>
+    Диманическая ссылка1: - <a href="/items/{{ next_ref1 }}">http://lisenok/items/{{ next_ref1 }}</a>,
+    <br>
+    Диманическая ссылка2: - <a href="/items/{{ next_ref2 }}">http://lisenok/items/{{ next_ref2 }}</a>,
+    <br>
+    Диманическая ссылка3: - <a href="/items/{{ next_ref3 }}">http://lisenok/items/{{ next_ref3 }}</a>.
+  </body>
+</html>
